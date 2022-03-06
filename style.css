@@ -1,0 +1,124 @@
+
+
+h1 {
+	font-size: 30px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+}
+h2 {
+	font-size: 20px;
+	font-weight: 100;
+	text-align: center;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: darkred;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+a {
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darkred;
+
+}
+
+
+body {
+	background-color: #F7F7F7;
+	color: rgb(30, 30, 30);
+	font-family: times, serif;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: center;
+}
+
+}
+
+ul {
+	text-align: left;
+}
+
+
+
+.size-200 {
+	width: 200px;
+}
+
+
+#profile {
+	border-radius: 10%;
+}
+
+.container {
+
+	width: 900px;
+	margin: 20px auto;
+	background-color: #F7F7F7;
+}
+
+@media (max-width:  760px) {
+	.container {
+		width: 600px;
+	}
+	#profile {
+		width: 500px;
+	}
+}
+
+@media (max-width:  500px) {
+	.container {
+		width: 400px;
+	}
+	#profile {
+		width: 300px;
+	}
+}
+
+
+
+.card-white {
+	background: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, .1);
+	margin: 20px auto;
+}
+
+
+
+.btn-red {
+	background: #F7F7F7;
+	padding: 15px 25px;
+	border-radius: 4px;
+}
+.btn-red:hover{
+	background: lightgrey;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 25px;
+}
+
+.list-inline li {
+	display: inline;
+	Padding:  15px;
+}
+
+.list-inline i {
+	font-size: 35px;
+}
+
